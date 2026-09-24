@@ -1,103 +1,121 @@
-<!doctype html>
-<html lang="en-US">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="author" content="Dr. Eleanor Gaye" />
-        <title>Awesome science application correspondence</title>
-        <style>
-            body {
-            font: 1.2em / 1.5 system-ui;
-            }
+<!DOCTYPE html>
+<html lang="en">
 
-            .sender-column {
-            text-align: right;
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Card Assignment - Make This Beautiful!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-            h1 {
-            font-size: 1.5em;
-            }
+<body>
+    <div class="recipe-container">
+        <!-- Recipe Header Section -->
+        <header class="recipe-header">
+            <h1 class="recipe-title">Classic Chocolate Chip Cookies</h1>
+            <img src="https://png.pngtree.com/thumb_back/fh260/background/20240530/pngtree-baked-round-chocolate-chip-cookies-image_15735360.jpg"
+                alt="Golden brown chocolate chip cookies on a cooling rack" class="recipe-image">
+        </header>
 
-            h2 {
-            font-size: 1.3em;
-            }
-        </style>
-        <link rel="stylesheet" href="tutorial_1_letter_styles.css">
-    </head>
-    <body class="letter-document">
-        <address class="sender-column sender-info letter-header">
-            <strong>Eleanor Gaye</strong><br>
-            Awesome Science faculty<br>
-            University of Awesome<br>
-            Bobtown, CA 99999,<br>
-            USA<br>
-            <strong>Tel:</strong> 123-456-7890<br>
-            <strong>Email:</strong> no_reply@example.com
-        </address>
+        <!-- Recipe Meta Information -->
+            <section class="recipe-meta">
+                <div class="meta-item">
+                    <strong>Prep Time:</strong> 15 minutes
+                </div>
+                <div class="meta-item">
+                    <strong>Cook Time:</strong> 12 minutes
+                </div>
+                <div class="meta-item">
+                    <strong>Total Time:</strong> 27 minutes
+                </div>
+                <div class="meta-item">
+                    <strong>Servings:</strong> 24 cookies
+                </div>
+                <div class="meta-item">
+                    <strong>Difficulty:</strong> Easy
+                </div>
+            </section>
 
-        <p class="sender-column letter-date">
-            <time datetime="2016-01-20">20 January 2016</time>
-        </p>
+            <!-- Recipe Description -->
+            <section class="recipe-description">
+                <p>These classic chocolate chip cookies are crispy on the edges, chewy in the middle, and packed with
+                    chocolate chips. Perfect for any occasion, from lunch boxes to holiday gatherings. This foolproof
+                    recipe
+                    has been tested countless times and always delivers delicious results.</p>
+            </section>
 
-        <address class="recipient-info">
-            <strong>Miss Eileen Dover</strong><br>
-            4321 Cliff Top Edge<br>
-            Dover, CT9 XXX<br>
-            UK
-        </address>
+            <!-- Ingredients Section -->
+            <section class="ingredients-section">
+                <h2>Ingredients</h2>
+                <ul class="ingredients-list">
+                    <li>2¼ cups all-purpose flour</li>
+                    <li>1 teaspoon baking soda</li>
+                    <li>1 teaspoon salt</li>
+                    <li>1 cup (2 sticks) butter, softened</li>
+                    <li>¾ cup granulated sugar</li>
+                    <li>¾ cup packed brown sugar</li>
+                    <li>2 large eggs</li>
+                    <li>2 teaspoons vanilla extract</li>
+                    <li>2 cups chocolate chips</li>
+                    <li>1 cup chopped walnuts (optional)</li>
+                </ul>
+            </section>
 
-        <h1 class="letter-subject">Re: Eileen Dover university application</h1>
+            <!-- Instructions Section -->
+            <section class="instructions-section">
+                <h2>Instructions</h2>
+                <ol class="instructions-list">
+                    <li class="instruction-step">
+                        <span class="step-number">1</span>
+                        <strong>Preheat oven</strong> to 375°F (190°C). Line baking sheets with parchment paper.
+                    </li>
+                    <li class="instruction-step">
+                        <span class="step-number">2</span>
+                        <strong>Mix dry ingredients:</strong> In a medium bowl, whisk together flour, baking soda, and
+                        salt.
+                        Set aside.
+                    </li>
+                    <li class="instruction-step">
+                        <span class="step-number">3</span>
+                        <strong>Cream butter and sugars:</strong> In a large bowl, beat softened butter with both sugars
+                        until light and fluffy, about 2-3 minutes.
+                    </li>
+                    <li class="instruction-step">
+                        <span class="step-number">4</span>
+                        <strong>Add eggs and vanilla:</strong> Beat in eggs one at a time, then stir in vanilla extract.
+                    </li>
+                    <li class="instruction-step">
+                        <span class="step-number">5</span>
+                        <strong>Combine wet and dry:</strong> Gradually blend in the flour mixture until just combined.
+                        Don't overmix.
+                    </li>
+                    <li class="instruction-step">
+                        <span class="step-number">6</span>
+                        <strong>Fold in chocolate chips:</strong> Stir in chocolate chips and nuts (if using).
+                    </li>
+                    <li class="instruction-step">
+                        <span class="step-number">7</span>
+                        <strong>Shape and bake:</strong> Drop rounded tablespoons of dough onto prepared baking sheets,
+                        spacing 2 inches apart. Bake 9-11 minutes until golden brown.
+                    </li>
+                    <li class="instruction-step">
+                        <span class="step-number">8</span>
+                        <strong>Cool:</strong> Let cool on baking sheet for 2 minutes, then transfer to wire rack.
+                    </li>
+                </ol>
+            </section>
 
-        <p class="letter-greeting">Dear Eileen,</p>
+            <!-- Recipe Footer -->
+            <footer class="recipe-footer">
+                <p>Recipe adapted from traditional family cookbook | Nutritional info: ~150 calories per cookie</p>
+                <p>Tags: dessert, baking, cookies, chocolate, family-friendly</p>
+            </footer>
+    </div>
+</body>
 
-        <p class="letter-paragraph">Thank you for your recent application to join us at the University of Awesome's science faculty to study as part of your <abbr class="abbreviation">PhD</abbr> (Doctor of Philosophy) next year. I will answer your questions one by one, in the following sections.</p>
-
-        <h2 class="content-section section-heading">Starting dates</h2>
-        <p>We are happy to accommodate you starting your study with us at any time, however it would suit us better if you could start at the <strong>beginning of a semester</strong>; the start dates for each one are as follows:</p>
-
-        <ul class="semester-dates">
-            <li><strong>First semester:</strong> <time datetime="2016-09-09">9 September 2016</time></li>
-            <li><strong>Second semester:</strong> <time datetime="2017-01-15">15 January 2017</time></li>
-            <li><strong>Third semester:</strong> <time datetime="2017-05-02">2 May 2017</time></li>
-        </ul>
-        <p>Please let me know if this is ok, and if so which start date you would prefer.</p>
-
-        <p>You can find more information about important university dates on our <span class="letter-link letter-link:focus">website</span>.</p>
-
-        <h2 class="content-section section-heading">Subjects of study</h2>
-        <p>At the Awesome Science Faculty, we have a pretty open-minded research facility — as long as the subjects fall somewhere in the realm of science and technology. You seem like an <strong>intelligent, dedicated researcher</strong>, and just the kind of person we'd like to have on our team. Saying that, of the ideas you submitted we were most intrigued by are as follows, in order of priority:</p>
-
-        <ol class="priority-list">
-            <li>Turning H<sub class="subscript">2</sub>O into wine, and the health benefits of Resveratrol (C<sub class="subscript">14</sub>H<sub class="subscript">12</sub>O<sub class="subscript">3</sub>.)</li>
-            <li>Measuring the effect on performance of funk bassplayers at temperatures exceeding 30°C (86°F), when the audience size exponentially increases (effect of 3 × 10<sup class="superscript">3</sup> increasing to 3 × 10<sup class="superscript">4</sup>.)</li>
-            <li><abbr class="abbreviation">HTML</abbr>, Hypertext Markup Language, and <abbr class="abbreviation">CSS</abbr>, Cascading Style Sheets, constructs for representing musical scores.</li>
-        </ol>
-        <p>So please can you provide more information on each of these subjects, including <span class="emphasis">how long you'd expect the research to take, required staff and other resources</span>, and anything else you think we'd need to know? Thanks.</p>
-
-        <h2 class="content-section section-heading">Exotic dance moves</h2>
-        <p>Yes, you are right! As part of my post-doctorate work, I did study exotic tribal dances. To answer your question, my favourite dances are as follows, with definitions:</p>
-
-        <dl class="dance-definitions">
-            <dt class="dance-term"><strong>Polynesian chicken dance</strong></dt>
-            <dd class="dance-definition">A little known but very influential dance dating back as far as 300 <abbr class="abbreviation">BCE</abbr>, a whole village would dance around in a circle like chickens, to encourage their livestock to be "fruitful".</dd>
-            <dt class="dance-term"><strong>Icelandic brownian shuffle</strong></dt>
-            <dd class="dance-definition">Before the Icelanders developed fire as a means of getting warm, they used to practice this dance, which involved huddling close together in a circle on the floor, and shuffling their bodies around in imperceptibly tiny, very rapid movements. One of my fellow students used to say that he thought this dance inspired modern styles such as <span>Twerking</span>.</dd>
-            <dt class="dance-term"><strong>Arctic robot dance</strong></dt>
-            <dd class="dance-definition">An interesting example of historic misinformation, English explorers in the 1960s believed to have discovered a new dance style characterised by "robotic", stilted movements, being practiced by inhabitants of Northern Alaska and Canada. Later on however it was discovered that they were just moving like this because they were really cold.</dd>
-        </dl>
-      
-        <p class="letter-closing">For more of my research, see my <span class="letter-link letter-link:focus">exotic dance research page</span>.</p>
-
-        <p class="closing-phrase">Yours sincerely,</p>
-
-        <p class="signature">Dr Eleanor Gaye</p>
-
-        <p class="university-motto">University of Awesome motto: <q class="inline-quote">Be awesome to each other.</q> -- 
-            <cite class="citation">The memoirs of Bill S Preston, <abbr title="Esquire">Esq.</abbr></cite>
-        </p>
-
-        <img src="UoA_image.jpeg"
-        alt="University of Awesome logo"
-        width="300" />
-
-    </body>
 </html>
