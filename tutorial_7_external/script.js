@@ -86,7 +86,7 @@ function createMyChart() {
                 labels: chartLabels,
                 datasets: [{
                     /* TODO: adjust this name */
-                    label: 'Number of Cuisines',
+                    label: 'Number of Restaurants',
                     data: chartData,
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.6)',
@@ -112,7 +112,7 @@ function createMyChart() {
                         beginAtZero: true,
                         title: {
                             display: true,
-                            text: 'Number of Cuisines'
+                            text: 'Number of Restaurants'
                         }
                     }
                 }
